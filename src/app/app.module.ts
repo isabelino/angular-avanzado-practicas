@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AcumuladorModule } from './acumulador/acumulador.module';
 import { AppComponent } from './app.component';
 import { HeroesModule } from './heroes/heroes.module';
+import { PersonajesModule } from './personajes/personajes.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { HeroesModule } from './heroes/heroes.module';
   imports: [
     BrowserModule,
     HeroesModule,
-    AcumuladorModule
+    AcumuladorModule,
+    PersonajesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
